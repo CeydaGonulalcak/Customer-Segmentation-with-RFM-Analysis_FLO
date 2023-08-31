@@ -164,6 +164,7 @@ cust_ids.to_csv("indirim_hedef_müşteri_ids.csv", index=False)
 ###############################################################
 
 def create_rfm(dataframe):
+    
     # Preparing the Data
     dataframe["order_num_total"] = dataframe["order_num_total_ever_online"] + dataframe["order_num_total_ever_offline"]
     dataframe["customer_value_total"] = dataframe["customer_value_total_ever_offline"] + dataframe["customer_value_total_ever_online"]
