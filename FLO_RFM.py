@@ -61,7 +61,7 @@
            # 1. Examine the recency, frequency and monetary averages of the segments.
            # 2. With the help of RFM analysis, find the customers in the relevant profile for 2 cases and save the customer IDs to the csv.
                    # a. FLO includes a new women's shoe brand. The product prices of the brand it includes are above the general customer preferences. Therefore, the brand
-                   It is desired to contact the customers in the profile that will be interested in # promotion and product sales. From their loyal customers(champions,loyal_customers),
+                   # It is desired to contact the customers in the profile that will be interested in promotion and product sales. From their loyal customers(champions,loyal_customers),
                    # People who shop from the women category with an average of 250 TL or more are the customers who will be contacted privately. Id numbers of these customers to csv file
                    # save as new_brand_target_customer_id.cvs.
                    # b. Up to 40% discount is planned for Men's and Children's products. Good past customer but long-standing customer interested in categories related to this sale
