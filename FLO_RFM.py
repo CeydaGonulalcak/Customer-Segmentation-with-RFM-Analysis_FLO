@@ -2,6 +2,7 @@
 # Customer Segmentation with RFM
 ###############################################################
 
+
 ###############################################################
 # Business Problem
 ###############################################################
@@ -214,7 +215,6 @@ def create_rfm(dataframe):
     rfm["RF_SCORE"] = (rfm['recency_score'].astype(str) + rfm['frequency_score'].astype(str))
     rfm["RFM_SCORE"] = (rfm['recency_score'].astype(str) + rfm['frequency_score'].astype(str) + rfm['monetary_score'].astype(str))
 
-
     # Naming of Segments
     seg_map = {
         r'[1-2][1-2]': 'hibernating',
@@ -230,10 +230,7 @@ def create_rfm(dataframe):
     }
     rfm['segment'] = rfm['RF_SCORE'].replace(seg_map, regex=True)
 
-           
-
     return rfm[["customer_id", "recency","frequency","monetary","RF_SCORE","RFM_SCORE","segment"]]
-
 
 
 rfm_df = create_rfm(df)
