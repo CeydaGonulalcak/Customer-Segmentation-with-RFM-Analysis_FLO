@@ -1,5 +1,4 @@
 # Customer-Segmentation-with-RFM-Analysis_FLO
-~ Miuul Data Science Bootcamp
 
 # Business Problem
 Online shoe store FLO wants to segment its customers and determine marketing strategies according to these segments. For this purpose, customer behaviors will be defined and groups will be formed based on clustering in these behaviors.
