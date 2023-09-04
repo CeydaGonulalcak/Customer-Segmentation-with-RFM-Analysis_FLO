@@ -7,6 +7,7 @@
 # Dataset Story
 The dataset consists of information obtained from the past shopping behaviors of customers who have shopped at Flo as OmniChannel (both online and offline) in 2020-2021.
 
+# Variables
   * master_id: Unique customer number
   * order_channel: Which channel was used for shopping (Android, ios, Desktop, Mobile, Offline)
   * last_order_channel: The channel used for the last purchase
