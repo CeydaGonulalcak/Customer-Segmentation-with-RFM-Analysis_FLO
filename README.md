@@ -1,4 +1,6 @@
 # Customer-Segmentation-with-RFM-Analysis_FLO
+This project aims for FLO to segment its customers and determine marketing strategies according to these segments. For this purpose, customer behaviors will be determined and groups will be formed according to behavioral clusters. First of all, FLO would like to set a roadmap for sales and marketing activities. In order for the company to make a medium-long-term plan, it is necessary to estimate the potential value that current customers will provide to the company in the future.
+
 
 # Business Problem
 * FLO wants to segment its customers and determine marketing strategies according to these segments.
